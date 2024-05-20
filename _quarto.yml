@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  navbar:
+    background: primary
+    reader-mode: true
+    search: true
+    left:
+      - href: index.qmd
+        text: Blog
+      - href: notes.qmd
+        text: notes
+  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-actions: [edit, issue]
+  page-footer: 
+    border: true
+    center: 
+      - icon: github
+        href: https://github.com/bikash119
+      - icon: twitter 
+        href: https://twitter.com/@_bikashpatra
+      - icon: linkedin
+        href: https://www.linkedin.com/in/bpatra/
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
