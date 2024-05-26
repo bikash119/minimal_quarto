@@ -1,4 +1,13 @@
-# Bikash's Notes
-  This is place where I scribble my notes. If you have find an error, please submit a pull request.I can be reach out to me [here](https://bikash.dev)
+---
+title: "Bikash's Notes"
 
-# Learnings
+listing:
+  sort-ui: false
+  filter-ui: false
+  type: table
+  contents: 
+    - notes
+  fields: [title, description]
+  max-description-length: 50
+---
+This is place where I scribble my notes. If you have find an error, please submit a pull request.You can reach out to me [here](https://bikash.dev)
